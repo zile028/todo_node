@@ -1,0 +1,13 @@
+POST http://localhost:3000/user
+Content-Type:application/json
+
+{
+    "fullName":"Milica",
+    "age":23,
+    "gender":"female",
+    "images":[
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fexternlabs.com%2Fblogs%2Fwhat-is-nodejs-used-for%2F&psig=AOvVaw21lLNfX5R0AL8cb-X2txTB&ust=1695491487725000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDDgZHkvoEDFQAAAAAdAAAAABAE",
+        "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.ctfassets.net%2Faq13lwl6616q%2F7cS8gBoWulxkWNWEm0FspJ%2Fc7eb42dd82e27279307f8b9fc9b136fa%2Fnodejs_cover_photo_smaller_size.png&tbnid=n7QkWPwRcx014M&vet=12ahUKEwjrrYSQ5L6BAxVh9LsIHcuaDJAQMygJegQIARBe..i&imgrefurl=https%3A%2F%2Fzerotomastery.io%2Fcourses%2Flearn-node-js%2F&docid=9A6H7yhCAaVbBM&w=1000&h=563&q=node&ved=2ahUKEwjrrYSQ5L6BAxVh9LsIHcuaDJAQMygJegQIARBe",
+        "https://www.google.com/imgres?imgurl=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fseo%2Fcontent%2Fog_image_file%2Fog_image%2F1302192%2Fsecure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png&tbnid=Lcw1xpxaXAXZVM&vet=12ahUKEwjrrYSQ5L6BAxVh9LsIHcuaDJAQMygLegQIARBi..i&imgrefurl=https%3A%2F%2Fwww.toptal.com%2Fnodejs%2Fsecure-rest-api-in-nodejs&docid=CGeB2Hxt-LEMYM&w=1720&h=900&q=node&ved=2ahUKEwjrrYSQ5L6BAxVh9LsIHcuaDJAQMygLegQIARBi"
+    ]
+}
